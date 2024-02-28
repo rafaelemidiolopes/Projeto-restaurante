@@ -1,0 +1,168 @@
+
+:root{  
+    --bege: #d6a574;
+    --red: #f00f0f;
+    --green: #297a19;
+    --white: #ffffff;
+}
+
+body{
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+        }
+
+        nav {
+            background-color: #d6a574;
+
+        }
+        .retangulo{
+        
+            background-color: rgb(209, 170, 126);
+            width: 120em;
+            height: 150px;
+           position: relative;
+           transform: translate(-40px, -20px);
+           padding-top: 5px ;
+           background: linear-gradient(to bottom, rgb(209, 126, 126), rgb(44, 20, 12));
+        }
+        .retangulo li {
+            display: inline-block;
+            text-indent: 300px;
+            line-height: 0px;
+            font-size: 20px;
+            padding-top: 34px;
+        }
+        h1 {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            line-height: 5px;
+            font-size: 2em;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61);
+            
+        }
+        img {
+            width: 119em;
+            height: 800px;
+            transform: translate(-37px, -36px);             
+        }
+
+        .melhores {
+            background-color: rgba(0, 0, 0, 0.589);
+            width: 95em;
+            height: 40em;
+            transform: translate(175px, -770px);
+            border-radius: 7px;
+
+        }
+
+        .q1 {
+            background-color: rgba(0, 0, 0, 0.952);
+            width: 480px;
+            height: 550px;
+            transform: translate(10px, 0px);
+            border-radius: 7px;
+        } 
+        .q2 { background-color: black;
+            width: 480px;
+            height: 550px;
+            transform: translate(517px, -583px);
+            border-radius: 7px;
+
+        }
+        .q3 {
+             background-color: rgb(0, 0, 0);
+            width: 480px;
+            height: 550px;
+            transform: translate(64em, -1165px);
+            border-radius: 7px;
+        }
+
+        .q1, .q2, .q3 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+       /* .tres {
+           width: 450px;
+           height: 350px;
+           transform: translate(25px, 45px);
+        }*/
+        h2 {
+            color: white;
+            text-align: center;
+            font-size: 39px;
+            
+        }
+        p {
+            color: white;
+            font-size: 20px;
+            text-indent: 30px;
+            padding: 10px;
+            text-align: justify;
+        }
+        .retbranco {
+            background-color: wheat;
+            width: 113em;
+            height: 46em;
+            transform: translate(27px, -43em);
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.397);
+            padding-top: 10px;
+        }
+
+        .pratos {
+            background-color: black;
+            width: 530px;
+            height: 550px;
+            transform: translate(50px, 49px);
+            border-radius: 7px;
+             box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.397);
+        }
+         .pratos2 {
+            background-color: black;
+            width: 530px;
+            height: 550px;
+            transform: translate(40em, -500px);
+            border-radius: 7px;
+             box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.397);
+        }
+         .pratos3 {
+            background-color: black;
+            width: 530px;
+            height: 550px;
+            transform: translate(77em, -1050px);
+            border-radius: 7px;
+             box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.397);
+        }
+
+        .foot {
+            background-color:#654321;
+            width: 114em;
+            height: 25em;
+            transform: translate(20px, -40em);
+        }
+        ul {
+            list-style-type: none;
+
+        }
+        li {
+            font-size: 1.2em;
+            line-height: 1.5;
+            color: #ffffff;
+        }
+        strong {
+            font-size: 1.2em;
+        }
+
+        .endereco {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    transform: translate(0px, -380px);
+}
+
+a{
+    color: #d1c40b;
+    text-decoration: none;
+    font-family: "Italianno";
+    font-size: 3.0em;
+    font-style: italic;
+}
